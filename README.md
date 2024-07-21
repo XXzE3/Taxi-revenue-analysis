@@ -1,4 +1,4 @@
-# Optimizing Revenue and Driver Retention in the Taxi Industry: A Data-Driven Analysis of Payment Methods, Fare Pricing, and Revenue Forecasting
+# Optimizing Revenue and Driver Retention in the Taxi Industry: A Data-Driven Analysis of Payment Methods, Fare Pricing, and Tip Amounts
 
 ## Introduction
 In the highly competitive rental taxi sector, optimizing revenue and ensuring driver satisfaction are crucial for sustained growth and long-term success. With the increasing reliance on data-driven decision-making, understanding the factors influencing fare pricing and revenue generation has become essential. This research aims to uncover actionable insights by analyzing the impact of different payment methods on fare amounts, and developing predictive models to estimate fare prices and driver tips.
@@ -10,8 +10,8 @@ By leveraging data-driven insights and predictive analytics, this research seeks
 - **Predictive Modeling**: Develop models to predict fare prices and driver tips, aiding in profit estimation and driver retention. Additionally, suggest tip amounts to customers by predicting tips based on trip distance and duration.
 
 ## Data Overview
-The comprehensive dataset of NYC Taxi Trip records was used for this analysis.
-- **Link**: [NYC Taxi Trip Data](https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019)
+The comprehensive dataset of NYC Taxi Trip records was used for this analysis.  
+**Link**: [NYC Taxi Trip Data](https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019)  
 Data cleaning and feature engineering procedures were implemented to concentrate solely on the relevant columns to our objective.
 
 **Columns relevant for this research**:
@@ -39,7 +39,7 @@ Performed statistical analysis to summarize key aspects of the data, focusing on
 Conducted a T-test to evaluate the relationship between payment and fare amount, testing the hypothesis that different payment methods influence fare amounts.
 
 ### Regression Analysis
-Employed linear regression to explore the impact of trip duration (calculated from pickup and dropoff times) and trip distance on fare amount as well as tip amount. Also created a regression model to help predict both fare amount and tip amount.
+Employed linear regression to explore the impact of trip duration (calculated from pickup and dropoff times) and trip distance on fare amount as well as tip amount. Finally resulting in a regression model to help predict both fare amount and tip amount.
 
 ## Insights
 - Customers paying with card are considerably more than cash, clocking at 67.7% for card and rest for cash.
@@ -55,8 +55,8 @@ Employed linear regression to explore the impact of trip duration (calculated fr
   ![__results___99_0](https://github.com/user-attachments/assets/a7d3dac1-761b-4b07-83c7-9bdc9532d543)
 
 ## Hypothesis Testing
-- **Null Hypothesis**: There is no difference in average fare between customers who use credit card and customers who use cash.
-- **Alternate Hypothesis**: There is a difference in average fare between customers who use credit and customers who use cash.
+**Null Hypothesis**: There is no difference in average fare between customers who use credit card and customers who use cash.
+**Alternate Hypothesis**: There is a difference in average fare between customers who use credit and customers who use cash.
 - Based on the fact that p-value is less than the significance level of 5%, the null hypothesis is rejected.
 - There is a statistically significant difference in average fare amount between passengers who pay with cash and passengers who use a card.
 
