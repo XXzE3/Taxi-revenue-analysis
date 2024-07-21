@@ -43,11 +43,16 @@ Employed linear regression to explore the impact of trip duration (calculated fr
 
 ## Insights
 - Customers paying with card are considerably more than cash, clocking at 67.7% for card and rest for cash.
+  ![__results___39_0](https://github.com/user-attachments/assets/54834939-5df8-4fdd-bda7-25b5bb9d75a8)
 - The mean for the card is more than cash in both trip distance and fare amount. This indicates that passengers are more inclined to pay with a card.
+- ![Screenshot 2024-07-21 210242](https://github.com/user-attachments/assets/053cdfb0-02fc-4e50-8fc8-34c3689e6089)
 - On any trip distance, card is the preferred mode. However when the fare amount is on a very lower scale, there is less difference between the preferences. But as distance and fare amount increase, the preference to pay with a card increases.
+  ![__results___41_0](https://github.com/user-attachments/assets/9a8d0a84-27f9-4002-93fa-8d1c56818283)
 - Among card payments, rides constituting a single passenger comprise the largest portion, valuing at 38% of the total card transactions. A similar trend is also visible in cash payments, where rides constituting a single passenger value at 19% of the total cash payments.
+  ![__results___47_0](https://github.com/user-attachments/assets/0608da37-ada0-477a-af71-68eab88b9285)
 - Furthermore, there is a noticeable decrease in the percentage of transactions suggesting that larger groups are less likely to rent taxis or may avail other payment methods. The data also says that card payment is preferred in any number of passenger counts.
 - The distribution for tip amount is not normally distributed. There appears to be three peaks with two peaks below the mean value of 2.56, suggesting that max drivers get paid less than average tip by passengers. Businesses can put up ads in the form of suggestions to encourage customers to pay more tip so that driver income and retention can increase.
+  ![__results___99_0](https://github.com/user-attachments/assets/a7d3dac1-761b-4b07-83c7-9bdc9532d543)
 
 ## Hypothesis Testing
 - **Null Hypothesis**: There is no difference in average fare between customers who use credit card and customers who use cash.
